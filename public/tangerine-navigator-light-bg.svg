@@ -1,0 +1,72 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tangerine Navigator Light Background - Navigation Sunrise -->
+  
+  <defs>
+    <!-- Main navigation gradient (orange → gold → teal) -->
+    <linearGradient id="navigationGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F98A1D;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFD46C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1CA9A6;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Radial warm glow (citrus sunrise) -->
+    <radialGradient id="citrusGlow" cx="25%" cy="75%" r="70%">
+      <stop offset="0%" style="stop-color:#FFD46C;stop-opacity:0.5" />
+      <stop offset="40%" style="stop-color:#F98A1D;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#F98A1D;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Breezewave pattern (subtle movement) -->
+    <pattern id="breezewavePattern" width="600" height="300" patternUnits="userSpaceOnUse">
+      <!-- Wave bands -->
+      <path d="M 0 100 Q 150 80, 300 100 Q 450 120, 600 100" 
+            stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.06"/>
+      <path d="M 0 200 Q 150 180, 300 200 Q 450 220, 600 200" 
+            stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.08"/>
+    </pattern>
+    
+    <!-- Compass accent pattern -->
+    <pattern id="compassAccents" width="800" height="800" patternUnits="userSpaceOnUse">
+      <circle cx="200" cy="200" r="3" fill="#1CA9A6" opacity="0.12"/>
+      <circle cx="600" cy="400" r="2.5" fill="#F98A1D" opacity="0.1"/>
+      <circle cx="400" cy="600" r="3" fill="#1CA9A6" opacity="0.12"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base gradient fill -->
+  <rect width="1920" height="1080" fill="url(#navigationGradient)"/>
+  
+  <!-- Radial citrus glow overlay -->
+  <rect width="1920" height="1080" fill="url(#citrusGlow)"/>
+  
+  <!-- Breezewave pattern overlay -->
+  <rect width="1920" height="1080" fill="url(#breezewavePattern)"/>
+  
+  <!-- Horizon suggestion (ocean meets sky) -->
+  <line x1="0" y1="780" x2="1920" y2="760" stroke="#FFFFFF" stroke-width="2" opacity="0.15"/>
+  
+  <!-- Tidal wave elements (navigation journey) -->
+  <path d="M 0 820 Q 320 780, 640 820 Q 960 860, 1280 820 Q 1600 780, 1920 820 L 1920 840 Q 1600 880, 1280 840 Q 960 800, 640 840 Q 320 880, 0 840 Z" 
+        fill="#1CA9A6" opacity="0.1"/>
+  
+  <!-- Compass accent elements (subtle navigation cues) -->
+  <rect width="1920" height="1080" fill="url(#compassAccents)"/>
+  
+  <!-- Citrus slice accent curves (brand identity) -->
+  <g opacity="0.08">
+    <path d="M 1700 200 A 150 150 0 0 1 1850 350" stroke="#F98A1D" stroke-width="3" fill="none"/>
+    <path d="M 200 800 A 120 120 0 0 0 320 920" stroke="#FFD46C" stroke-width="2.5" fill="none"/>
+  </g>
+  
+  <!-- Gold mist sparkles (treasure navigation) -->
+  <g fill="#FFD46C" opacity="0.18">
+    <circle cx="1650" cy="250" r="4"/>
+    <circle cx="1780" cy="320" r="3"/>
+    <circle cx="1550" cy="380" r="3.5"/>
+    <circle cx="250" cy="180" r="4"/>
+    <circle cx="150" cy="280" r="3"/>
+    <circle cx="350" cy="220" r="3.5"/>
+  </g>
+  
+  <!-- Safe zone for centered login card: 760-1160 x 340-740 -->
+</svg>

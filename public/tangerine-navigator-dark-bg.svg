@@ -1,0 +1,86 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tangerine Navigator Dark Background - Tempest Navigation -->
+  
+  <defs>
+    <!-- Dark navigation gradient (tempest → deep teal) -->
+    <linearGradient id="tempestGradient" x1="0%" y1="100%" x2="100%" y2="10%">
+      <stop offset="0%" style="stop-color:#0A2F33;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#134A4E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1CA9A6;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Radial navigation glow (guiding light) -->
+    <radialGradient id="navigationGlow" cx="70%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#1CA9A6;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#0A2F33;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#0A2F33;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Storm spark pattern (weather witch theme) -->
+    <pattern id="stormSparks" width="700" height="700" patternUnits="userSpaceOnUse">
+      <!-- Vertical spark streaks -->
+      <line x1="150" y1="100" x2="152" y2="150" stroke="#FFD46C" stroke-width="1" opacity="0.05"/>
+      <line x1="450" y1="300" x2="453" y2="360" stroke="#FFD46C" stroke-width="1.2" opacity="0.06"/>
+      <line x1="600" y1="500" x2="602" y2="550" stroke="#F98A1D" stroke-width="1" opacity="0.04"/>
+    </pattern>
+    
+    <!-- Compass glow pattern -->
+    <pattern id="compassGlowPattern" width="900" height="900" patternUnits="userSpaceOnUse">
+      <circle cx="300" cy="300" r="4" fill="#FFD46C" opacity="0.08"/>
+      <circle cx="700" cy="500" r="3.5" fill="#1CA9A6" opacity="0.1"/>
+      <circle cx="500" cy="700" r="4" fill="#FFD46C" opacity="0.08"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base tempest gradient -->
+  <rect width="1920" height="1080" fill="url(#tempestGradient)"/>
+  
+  <!-- Navigation glow overlay -->
+  <rect width="1920" height="1080" fill="url(#navigationGlow)"/>
+  
+  <!-- Storm spark pattern -->
+  <rect width="1920" height="1080" fill="url(#stormSparks)"/>
+  
+  <!-- Tidal depth lines (dark ocean navigation) -->
+  <g opacity="0.12" stroke="#1CA9A6" stroke-width="1.5" fill="none">
+    <line x1="0" y1="750" x2="1920" y2="740"/>
+    <line x1="0" y1="820" x2="1920" y2="810"/>
+  </g>
+  
+  <!-- Wave current shapes (navigation flow) -->
+  <path d="M 0 850 Q 400 820, 800 850 Q 1200 880, 1600 850 Q 1800 835, 1920 840 L 1920 870 Q 1800 885, 1600 870 Q 1200 840, 800 870 Q 400 900, 0 870 Z" 
+        fill="#1CA9A6" opacity="0.08"/>
+  
+  <!-- Compass navigation glow accents -->
+  <rect width="1920" height="1080" fill="url(#compassGlowPattern)"/>
+  
+  <!-- Gold spark navigation points (treasure paths) -->
+  <g opacity="0.15">
+    <!-- Upper right constellation -->
+    <circle cx="1680" cy="200" r="3" fill="#FFD46C"/>
+    <circle cx="1750" cy="260" r="2.5" fill="#F98A1D"/>
+    <circle cx="1820" cy="180" r="2" fill="#FFD46C"/>
+    <line x1="1680" y1="200" x2="1750" y2="260" stroke="#FFD46C" stroke-width="0.5" opacity="0.5"/>
+    <line x1="1750" y1="260" x2="1820" y2="180" stroke="#FFD46C" stroke-width="0.5" opacity="0.5"/>
+    
+    <!-- Lower left cluster -->
+    <circle cx="180" cy="880" r="3" fill="#FFD46C"/>
+    <circle cx="250" cy="840" r="2.5" fill="#F98A1D"/>
+    <circle cx="140" cy="800" r="2" fill="#FFD46C"/>
+  </g>
+  
+  <!-- Subtle citrus arc accents (brand callback) -->
+  <g opacity="0.06">
+    <path d="M 1650 150 A 180 180 0 0 1 1830 330" stroke="#F98A1D" stroke-width="2.5" fill="none"/>
+    <path d="M 150 900 A 150 150 0 0 0 300 1050" stroke="#FFD46C" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Upward navigation streaks (moving forward) -->
+  <g opacity="0.05" stroke="#1CA9A6" stroke-width="1.5" fill="none">
+    <line x1="1500" y1="600" x2="1520" y2="400"/>
+    <line x1="400" y1="700" x2="420" y2="500"/>
+    <line x1="1100" y1="800" x2="1120" y2="600"/>
+  </g>
+  
+  <!-- Safe zone for centered login card: 760-1160 x 340-740 -->
+</svg>

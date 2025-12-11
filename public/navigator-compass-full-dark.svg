@@ -1,0 +1,62 @@
+<svg width="280" height="80" viewBox="0 0 280 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tangerine Navigator Compass Crest - Full Logo Dark Mode -->
+  
+  <defs>
+    <!-- Orange glow gradient for dark mode -->
+    <linearGradient id="compassGlowDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB85D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD46C;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Teal glow gradient -->
+    <linearGradient id="tealGlowDark" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3DBDBA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5FD3D0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Outer circle (navigation) with glow -->
+  <circle cx="40" cy="40" r="28" stroke="url(#compassGlowDark)" stroke-width="2.5" fill="none" filter="url(#glow)"/>
+  
+  <!-- Compass rose (4 main points) with glow -->
+  <g transform="translate(40, 40)" filter="url(#glow)">
+    <!-- North point (primary) -->
+    <path d="M 0 -22 L 3 -10 L 0 -12 L -3 -10 Z" fill="#FFB85D"/>
+    <!-- East point -->
+    <path d="M 22 0 L 10 3 L 12 0 L 10 -3 Z" fill="#FFD46C"/>
+    <!-- South point -->
+    <path d="M 0 22 L 3 10 L 0 12 L -3 10 Z" fill="#FFD46C"/>
+    <!-- West point -->
+    <path d="M -22 0 L -10 3 L -12 0 L -10 -3 Z" fill="#FFD46C"/>
+  </g>
+  
+  <!-- Wave-curve (tidal flow) with glow -->
+  <path d="M 12 40 Q 20 35, 28 40 Q 36 45, 40 40 Q 44 35, 52 40 Q 60 45, 68 40" 
+        stroke="url(#tealGlowDark)" stroke-width="2" fill="none" stroke-linecap="round" filter="url(#glow)"/>
+  
+  <!-- Citrus-slice arc (divider) -->
+  <path d="M 40 15 A 25 25 0 0 1 65 40" 
+        stroke="#FFB85D" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M 40 15 A 25 25 0 0 0 15 40" 
+        stroke="#FFB85D" stroke-width="1.5" fill="none" opacity="0.5"/>
+  
+  <!-- Central navigation dot with glow -->
+  <circle cx="40" cy="40" r="3" fill="#3DBDBA" filter="url(#glow)"/>
+  
+  <!-- Text: TANGERINE NAVIGATOR with glow -->
+  <text x="90" y="36" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700" fill="#FFD46C">
+    TANGERINE
+  </text>
+  <text x="90" y="54" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="600" fill="#5FD3D0">
+    NAVIGATOR
+  </text>
+</svg>

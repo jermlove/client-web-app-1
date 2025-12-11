@@ -1,0 +1,24 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tangerine Navigator - Favicon (Minimal) -->
+  
+  <defs>
+    <!-- Orange to Gold gradient -->
+    <linearGradient id="faviconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F98A1D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD46C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Simplified compass circle -->
+  <circle cx="16" cy="16" r="14" fill="url(#faviconGradient)"/>
+  
+  <!-- Simple compass needle -->
+  <path d="M 16 6 L 18 14 L 16 13 L 14 14 Z" fill="#FFFFFF"/>
+  
+  <!-- Wave accent -->
+  <path d="M 6 16 Q 11 13, 16 16 Q 21 19, 26 16" 
+        stroke="#1CA9A6" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Center dot -->
+  <circle cx="16" cy="16" r="2" fill="#FFFFFF"/>
+</svg>

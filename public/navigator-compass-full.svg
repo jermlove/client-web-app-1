@@ -1,0 +1,53 @@
+<svg width="280" height="80" viewBox="0 0 280 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tangerine Navigator Compass Crest - Full Logo Light Mode -->
+  
+  <defs>
+    <!-- Orange to Gold gradient for compass -->
+    <linearGradient id="compassGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F98A1D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD46C;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Teal accent gradient -->
+    <linearGradient id="tealGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1CA9A6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3DBDBA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer circle (navigation) -->
+  <circle cx="40" cy="40" r="28" stroke="url(#compassGradient)" stroke-width="2.5" fill="none"/>
+  
+  <!-- Compass rose (4 main points) -->
+  <g transform="translate(40, 40)">
+    <!-- North point (primary) -->
+    <path d="M 0 -22 L 3 -10 L 0 -12 L -3 -10 Z" fill="#F98A1D"/>
+    <!-- East point -->
+    <path d="M 22 0 L 10 3 L 12 0 L 10 -3 Z" fill="#FFD46C"/>
+    <!-- South point -->
+    <path d="M 0 22 L 3 10 L 0 12 L -3 10 Z" fill="#FFD46C"/>
+    <!-- West point -->
+    <path d="M -22 0 L -10 3 L -12 0 L -10 -3 Z" fill="#FFD46C"/>
+  </g>
+  
+  <!-- Wave-curve (tidal flow) -->
+  <path d="M 12 40 Q 20 35, 28 40 Q 36 45, 40 40 Q 44 35, 52 40 Q 60 45, 68 40" 
+        stroke="url(#tealGradient)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Citrus-slice arc (divider) -->
+  <path d="M 40 15 A 25 25 0 0 1 65 40" 
+        stroke="#F98A1D" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M 40 15 A 25 25 0 0 0 15 40" 
+        stroke="#F98A1D" stroke-width="1.5" fill="none" opacity="0.4"/>
+  
+  <!-- Central navigation dot -->
+  <circle cx="40" cy="40" r="3" fill="#1CA9A6"/>
+  
+  <!-- Text: TANGERINE NAVIGATOR -->
+  <text x="90" y="36" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700" fill="#F98A1D">
+    TANGERINE
+  </text>
+  <text x="90" y="54" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="600" fill="#1CA9A6">
+    NAVIGATOR
+  </text>
+</svg>
