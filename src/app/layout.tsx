@@ -3,8 +3,8 @@
  * Tangerine Navigator Theme
  */
 
-import './globals.css';
-import '../styles/tangerine-navigator-theme.css';
+import '../../styles/globals.css';
+import '../../styles/tangerine-navigator-theme.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { AuthProvider } from '@/lib/AuthProvider';
